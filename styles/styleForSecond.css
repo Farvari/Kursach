@@ -1,0 +1,350 @@
+/* <--------------------------- RECEPIE -------------------------> */
+
+.rectangle-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 960px; /* Базовая ширина */
+  height: 100%;
+  background-color: #f8f8f8;
+  margin: 0 auto; /* Центрируем .rectangle */
+}
+
+.recepie-img1,
+.recepie-img2,
+.recepie-img3,
+.recepie-img4,
+.recepie-img5,
+.recepie-img6 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  font-family: "JetBrains Mono";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 50px;
+  color: #ffffff;
+}
+
+.recepie-img1 {
+  background-image: url(/media/stepFor1/salat_dark.jpg);
+}
+
+.recepie-img2 {
+  background-image: url(/media/stepFor2/brownie-dark.jpg);
+}
+
+.recepie-img3 {
+  background-image: url(/media/stepFor3/syrniki-dark.jpg);
+}
+
+.recepie-img4 {
+  background-image: url(/media/stepFor4/carb-dark.jpg);
+}
+
+.recepie-img5 {
+  background-image: url(/media/stepFor5/sharld-dark.png);
+}
+
+.recepie-img6 {
+  background-image: url(/media/stepFor6/brus-dark.jpg);
+}
+
+
+.lighter {
+  filter: opacity(0.5);
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.time-info {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.info {
+  color: #000000;
+  font-family: "JetBrains Mono";
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.dish-description {
+  border: 3px dashed black;
+  padding: 5px 27px 5px 27px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  margin: 0px 40px 15px 40px;
+}
+.description-text {
+  color: #000000;
+  text-align: center;
+  font-family: "JetBrains Mono";
+  font-size: 20px;
+  font-weight: 500;
+  position: relative;
+  width: 826px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ingredients {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+}
+.CAPS {
+  color: #000000;
+  text-align: left;
+  font-family: "JetBrains Mono";
+  font-size: 24px;
+  font-weight: 500;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 20px;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  position: relative;
+  width: 100%;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+.part1,
+.part2 {
+  color: #000000;
+  font-family: "JetBrains Mono";
+  font-size: 24px;
+  font-weight: 400;
+  position: relative;
+  justify-content: space-between;
+}
+.part1 {
+  text-align: left;
+  margin-left: 25px;
+}
+.part2 {
+  text-align: right;
+  margin-right: 25px;
+}
+
+.energy-value {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.energy-value-all {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Добавляем перенос элементов на новую строку при необходимости */
+  width: 100%; /* Устанавливаем ширину на 100% для адаптивности */
+}
+
+.puk {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-basis: 25%; /* Устанавливаем базовую ширину для каждого элемента */
+  box-sizing: border-box; /* Учитываем padding и border в ширине элемента */
+}
+
+.energy-value-name,
+.amount,
+.CI {
+  color: #000000;
+  text-align: left;
+  font-family: "JetBrains Mono";
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.energy-value-name {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.amount {
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.CI {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.instruction {
+  display: flex;
+  flex-direction: row;
+  gap: 14px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.instruction img {
+  margin-left: 20px;
+}
+
+.instruction-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.instruction .instruction-details {
+  margin-right: 20px;
+  padding-top: 10px;
+  font-family: "JetBrains Mono";
+  font-size: 21px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  max-width: fit-content;
+}
+
+@media (max-width: 960px) {
+  .rectangle-info {
+    width: 100%; /* Устанавливаем ширину на 100% для адаптивности */
+  }
+
+  .recepie-img {
+    height: 130px;
+    font-size: 22px;
+  }
+
+  .icons {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .dish-description {
+    border-width: 2px;
+  }
+
+  .part1,
+  .part2 {
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .puk {
+    flex-basis: 50%;
+    margin-bottom: 15px;
+  }
+
+  .instruction {
+    padding-bottom: 15px;
+    border-bottom: 1px solid black;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 10px 15px 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #f8f8f8;
+    width: fit-content;
+  }
+
+  .instruction img {
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 0;
+    width: 65%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .instruction .instruction-details {
+    margin: 0px 20px 10px 20px;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .instruction-frame {
+    height: auto;
+  }
+}
+
+.rectangle-item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 960px;
+  height: 100%;
+  background-color: #f8f8f8;
+}
+
+/* Адаптивные стили */
+@media (max-width: 960px) {
+  .rectangle-item {
+    width: 100%;
+  }
+}
+
+/* Адаптивные стили для экранов от 450 до 940 пикселей */
+@media (min-width: 560px) and (max-width: 960px) {
+  .rectangle-item {
+    flex-wrap: wrap; /* Позволяет элементам переноситься на новую строку */
+  }
+
+  .instruction {
+    width: calc(50% - 20px); /* Уменьшаем ширину на величину отступов */
+    margin: 10px; /* Отступы для элементов */
+  }
+}
+
+/* <----------------------------------------------------> */

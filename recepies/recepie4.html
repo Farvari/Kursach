@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gourmet Garden</title>
+    <link rel="stylesheet" href="/styles/styleForMain.css" />
+    <link rel="stylesheet" href="/styles/styleForSecond.css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+        rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/5122e689a0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!---------------------------------- HEADER ------------------------------------>
+    <header class="header">
+        <div class="header-left" onclick="document.location='/main.html'">
+            <svg class="header-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+                <path
+                    d="M39 46c-2.72 0-1 .4-1-2 0-1.94-2.71-5.06-3.26-5.67a1 1 0 0 0-1.48 0C32.71 38.94 30 42.06 30 44a3.91 3.91 0 0 0 .56 2h-3.12a3.91 3.91 0 0 0 .56-2c0-1.94-2.71-5.06-3.26-5.67a1 1 0 0 0-1.48 0C22.71 38.94 20 42.06 20 44a3.91 3.91 0 0 0 .56 2h-3.12a3.91 3.91 0 0 0 .56-2c0-1.94-2.71-5.06-3.26-5.67a1 1 0 0 0-1.48 0C12.71 38.94 10 42.06 10 44c0 2.39 1.71 2-1 2a1 1 0 0 0 0 2h30a1 1 0 0 0 0-2zm-7-2c0-.64.94-2.13 2-3.45 1.06 1.33 2 2.83 2 3.45a2 2 0 0 1-4 0zm-10 0c0-.64.94-2.13 2-3.45 1.06 1.33 2 2.83 2 3.45a2 2 0 0 1-4 0zm-10 0c0-.64.94-2.13 2-3.45 1.06 1.33 2 2.83 2 3.45a2 2 0 0 1-4 0zM43.91 14H4.09a4.1 4.1 0 0 0-1.83 7.75L6 23.62V27a9 9 0 0 0 9 9h18a9 9 0 0 0 9-9v-3.38l3.74-1.87A4.1 4.1 0 0 0 43.91 14zM3.16 20a2.09 2.09 0 0 1 .93-4H6v5.38zM40 27a7 7 0 0 1-7 7H15a7 7 0 0 1-7-7V16h32zm4.84-7L42 21.38V16h1.91a2.09 2.09 0 0 1 .93 4zM23.36 8.56C21.31 10.27 21.87 12 23 12a1 1 0 0 0 1-1c0-.92 2-1.21 2-3.33 0-2.67-3.38-2.56-1.36-4.24S26.14 0 25 0a1 1 0 0 0-1 1c0 .92-2 1.21-2 3.33s2 2.42 2 3.34c0 .33-.16.49-.64.89zM15.36 8.56C13.31 10.27 13.87 12 15 12a1 1 0 0 0 1-1c0-.92 2-1.21 2-3.33 0-2.67-3.38-2.56-1.36-4.24S18.14 0 17 0a1 1 0 0 0-1 1c0 .92-2 1.21-2 3.33s2 2.42 2 3.34c0 .33-.16.49-.64.89zM31.36 8.56C29.31 10.27 29.87 12 31 12a1 1 0 0 0 1-1c0-.92 2-1.21 2-3.33 0-2.67-3.38-2.56-1.36-4.24S34.14 0 33 0a1 1 0 0 0-1 1c0 .92-2 1.21-2 3.33s2 2.42 2 3.34c0 .33-.16.49-.64.89z" />
+            </svg>
+            <div class="logo">Gourmet Garden</div>
+        </div>
+        <div class="header-right">
+            <ul>
+                <li><a class="header-link" onclick="document.location='/landing.html'">В начало</a></li>
+                <li><a class="header-link" onclick="document.location='/main.html'">Рецепты<a></li>
+                <li><a class="sign-in">ВОЙТИ</a></li>
+            </ul>
+        </div>
+        <div class="burger"><span></span></div>
+    </header>
+    <!---------------------------------- ITEM ------------------------------------>
+    <div class="container">
+        <div class="rectangle-info">
+            <div class="recepie-img4">
+                <span class="lighter">Спагетти карбонара со сливками</span>
+            </div>
+            <div class="icons">
+                <div class="time-info">
+                    <i class="fa-solid fa-utensils"></i>
+                    <div class="info">2 ПОРЦИЙ |</div>
+                    <i class="fa-solid fa-stopwatch"></i>
+                    <div class="info">20 МИНУТ</div>
+                </div>
+            </div>
+            <div class="dish-description">
+                <div class="description-text">
+                    Спагетти карбонара — хоть блюдо и итальянское, оно имеет хорошую популярность во всем мире, в том
+                    числе и у нас. Изобретенная когда-то простыми шахтерами, эта простая и сытная паста завоевала сердца
+                    и желудки многих. Для карбонары нужно выбирать такие ломтики бекона, где больше мяса и меньше жира.
+                    Если его будет много, то, вытапливаясь при готовке, он сделает пасту слишком тяжелой. Можно подавить
+                    чеснок и бросить в поджарку. Но, чтобы блюдо приобрело утонченный, еле уловимый аромат, достаточно
+                    потомить ломтики чеснока в масле и убрать из сковороды спустя пару минут.
+                </div>
+            </div>
+            <div class="ingredients">
+                <div class="CAPS">ИНГРЕДИЕНТЫ:</div>
+                <div class="list">
+                    <div class="part1">
+                        <ul>
+                            <li>Спагетти</li>
+                            <li>Сливочное масло</li>
+                            <li>Чеснок</li>
+                            <li>Красный лук</li>
+                            <li>Бекон</li>
+                            <li>Сливки 20%-ные</li>
+                            <li>Тертый сыр пармезан</li>
+                            <li>Куриное яйцо</li>
+                            <li>Соль</li>
+                            <li>Молотый черный перец</li>
+                        </ul>
+                    </div>
+                    <div class="part2">
+                        <ul>
+                            <li>250 г</li>
+                            <li>20 г</li>
+                            <li>2 зубчика</li>
+                            <li>1 головка</li>
+                            <li>50 г</li>
+                            <li>200 мл</li>
+                            <li>50 г</li>
+                            <li>4 штуки</li>
+                            <li>по вкусу</li>
+                            <li>по вкусу</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="energy-value">
+                <div class="CAPS">ЭНЕРГЕТИЧЕСКАЯ ЦЕННОСТЬ НА ПОРЦИЮ</div>
+                <div class="energy-value-all">
+                    <div class="puk">
+                        <div class="energy-value-name">КАЛОРИЙНОСТЬ</div>
+                        <div class="amount">1158</div>
+                        <div class="CI">ккал</div>
+                    </div>
+                    <div class="puk">
+                        <div class="energy-value-name">БЕЛКИ</div>
+                        <div class="amount">46</div>
+                        <div class="CI">грамм</div>
+                    </div>
+                    <div class="puk">
+                        <div class="energy-value-name">ЖИРЫ</div>
+                        <div class="amount">61</div>
+                        <div class="CI">грамм</div>
+                    </div>
+                    <div class="puk">
+                        <div class="energy-value-name">УГЛЕВОДЫ</div>
+                        <div class="amount">102</div>
+                        <div class="CI">грамм</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="rectangle-info">
+            <div class="CAPS">ИНСТРУКЦИЯ ПРИГОТОВЛЕНИЯ:</div>
+        </div>
+        <div class="rectangle-item">
+            <div class="instruction">
+                <img src="/media/stepFor4/1.webp" />
+                <div class="instruction-frame">
+                    <div class="instruction-details">
+                        1. Вскипятите воду в большой кастрюле и сварите пасту до состояния аль денте. Обычно для этого
+                        нужно варить ее на минуту меньше, чем указано на пачке.
+                    </div>
+                </div>
+            </div>
+            <div class="instruction">
+                <img src="/media/stepFor4/2.webp" />
+                <div class="instruction-frame">
+                    <div class="instruction-details">
+                        2. Пока паста варится, растопите на сковороде масло и обжарьте на нем мелко нарезанные лук,
+                        чеснок и бекон. До мягкости и до отчетливого чесночного и жаренобеконного запаха.
+                    </div>
+                </div>
+            </div>
+            <div class="instruction">
+                <img src="/media/stepFor4/3.webp" />
+                <div class="instruction-frame">
+                    <div class="instruction-details">
+                        3. Снимите сковороду с огня и в глубокой миске взбейте четыре яичных желтка со сливками и тертым
+                        пармезаном. Посолите и поперчите смесь, еще раз взбейте.
+                    </div>
+                </div>
+            </div>
+            <div class="instruction">
+                <img src="/media/stepFor4/4.webp" />
+                <div class="instruction-frame">
+                    <div class="instruction-details">
+                        4. В готовые спагетти вывалите обжаренные с луком и чесноком кусочки бекона. Влейте смесь
+                        сливок, желтков и пармезана, перемешайте. И сразу подавайте, посыпав свеженатертым сыром и
+                        черным молотым перцем.
+                    </div>
+                </div>
+            </div>
+
+            <div class="rectangle-info">
+                <div class="CAPS" style="margin-top: 20px">ДРУГИЕ РЕЦЕПТЫ:</div>
+            </div>
+
+            <div class="rectangle-item">
+                <div class="item">
+                    <img src="/media/stepFor5/sharld.png" onclick="document.location='recepie5.html'" />
+                    <div class="frame">
+                        <div class="description">
+                            <div>Выпечка |⠀</div>
+                            <div>Русская кухня</div>
+                        </div>
+                        <div class="title" onclick="document.location='recepie5.html'">
+                            Классическая шарлотка
+                        </div>
+                        <div class="details">
+                            <div>12 ПОРЦИЙ |⠀</div>
+                            <div>6 ИГРЕДИЕНТОВ</div>
+                        </div>
+                        <div class="interactions">
+                            <i class="fa-regular fa-thumbs-up"></i>
+                            <div>2000 |</div>
+                            <i class="fa-regular fa-thumbs-down"></i>
+                            <div>130 |</div>
+                            <i class="fa-regular fa-bookmark"></i>
+                            <div>21000</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="/media/stepFor6/brus.jpg" onclick="document.location='recepie6.html'" />
+                    <div class="frame">
+                        <div class="description">
+                            <div>Закуска |⠀</div>
+
+                            <div>Итальянская кухня</div>
+                        </div>
+                        <div class="title" onclick="document.location='recepie6.html'">
+                            Брускетта с помидорами
+                        </div>
+                        <div class="details">
+                            <div>4 ПОРЦИИ |⠀</div>
+                            <div>8 ИГРЕДИЕНТОВ</div>
+                        </div>
+                        <div class="interactions">
+                            <i class="fa-regular fa-thumbs-up"></i>
+                            <div>960 |</div>
+                            <i class="fa-regular fa-thumbs-down"></i>
+                            <div>50 |</div>
+                            <i class="fa-regular fa-bookmark"></i>
+                            <div>12600</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="/media/stepFor1/salat.jpg" onclick="document.location='/recepie1.html'" />
+                    <div class="frame">
+                        <div class="description">
+                            <div>Салат |⠀</div>
+                            <div>Американская кухня</div>
+                        </div>
+                        <div class="title" onclick="document.location='recepie1.html'">
+                            Салат "Цезарь"
+                        </div>
+                        <div class="details">
+                            <div>6 ПОРЦИЙ |⠀</div>
+                            <div>10 ИГРЕДИЕНТОВ</div>
+                        </div>
+                        <div class="interactions">
+                            <i class="fa-regular fa-thumbs-up"></i>
+                            <div>1256 |</div>
+                            <i class="fa-regular fa-thumbs-down"></i>
+                            <div>48 |</div>
+                            <i class="fa-regular fa-bookmark"></i>
+                            <div>1202</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---------------------------------- SIGN-IN ------------------------------------>
+    <div id="modal" class="modal">
+        <div class="modalContent">
+            <div class="modalText">
+                <span id="modalTitle" class="modalTitle">Введите свой email. На него мы отправим дальнешие инструкции по
+                    входу.</span>
+                <div class="modalInput" id="modalInput">
+                    <input type="text" id="emailInput" placeholder="Введите ваш email" />
+                    <div class="download" id="sendEmail"><span>Подтвердить</span></div>
+                </div>
+            </div>
+            <span class="close" id="closeModal">&times;</span>
+        </div>
+    </div>
+    <!---------------------------------- FOOTER ------------------------------------>
+    <footer class="footer">
+        <iframe id="footer-iframe" src="/xml/footer.xml" frameborder="0"></iframe>
+        <div class="line"></div>
+        <div class="text">Наши соц. сети</div>
+        <div class="social">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+                onclick="window.location.href = 'https://www.instagram.com/'">
+                <path
+                    d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                onclick="window.location.href = 'https://twitter.com/'">
+                <path
+                    d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" />
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                onclick="window.location.href = 'https://www.facebook.com/'">
+                <path
+                    d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z" />
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"
+                onclick="window.location.href = 'https://www.youtube.com/'">
+                <path
+                    d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z" />
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"
+                onclick="window.location.href = 'https://www.pinterest.com/'">
+                <path
+                    d="M496 256c0 137-111 248-248 248-25.6 0-50.2-3.9-73.4-11.1 10.1-16.5 25.2-43.5 30.8-65 3-11.6 15.4-59 15.4-59 8.1 15.4 31.7 28.5 56.8 28.5 74.8 0 128.7-68.8 128.7-154.3 0-81.9-66.9-143.2-152.9-143.2-107 0-163.9 71.8-163.9 150.1 0 36.4 19.4 81.7 50.3 96.1 4.7 2.2 7.2 1.2 8.3-3.3 .8-3.4 5-20.3 6.9-28.1 .6-2.5 .3-4.7-1.7-7.1-10.1-12.5-18.3-35.3-18.3-56.6 0-54.7 41.4-107.6 112-107.6 60.9 0 103.6 41.5 103.6 100.9 0 67.1-33.9 113.6-78 113.6-24.3 0-42.6-20.1-36.7-44.8 7-29.5 20.5-61.3 20.5-82.6 0-19-10.2-34.9-31.4-34.9-24.9 0-44.9 25.7-44.9 60.2 0 22 7.4 36.8 7.4 36.8s-24.5 103.8-29 123.2c-5 21.4-3 51.6-.9 71.2C65.4 450.9 0 361.1 0 256 0 119 111 8 248 8s248 111 248 248z" />
+            </svg>
+        </div>
+    </footer>
+    <script>
+        'use strict'
+        document.querySelector(".burger").addEventListener("click", function () {
+            this.classList.toggle("active");
+            document.querySelector(".header-right").classList.toggle("open");
+        });
+        let subscriptionDivs = document.querySelectorAll(".sign-in");
+        subscriptionDivs.forEach(function (div) {
+            div.addEventListener("click", function () {
+                let modal = document.getElementById("modal");
+                modal.style.display = "block";
+                modal.classList.add("fade-in");
+            });
+        });
+
+        // Письмо "было" отправлено
+        document.getElementById("sendEmail").addEventListener("click", function () {
+            let emailInput = document.getElementById("emailInput");
+            let emailInputValue = emailInput.value.trim();
+
+            if (emailInputValue.includes("@")) {
+                let modalInput = document.getElementById("modalInput");
+                modalInput.style.display = "none";
+
+                let modalTitle = document.getElementById("modalTitle");
+                modalTitle.innerText = "Письмо с инструкциями было отправлено.";
+            } else {
+                alert("Пожалуйста, введите корректный адрес электронной почты.");
+            }
+        });
+
+        document.getElementById('closeModal').addEventListener('click', function () {
+            let modal = document.getElementById("modal");
+            modal.classList.remove("fade-in");
+            modal.classList.add("fade-out");
+
+            setTimeout(function () {
+                modal.style.display = "none";
+                modal.classList.remove("fade-out");
+            }, 500);
+        })
+    </script>
+</body>
+
+</html>
