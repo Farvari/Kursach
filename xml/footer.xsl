@@ -19,7 +19,7 @@
                     }
 
                     .logo-footer {
-                    width: 350px;
+                    width: 370px;
                     display: flex;
                     flex-direction: row;
                     align-items: left;
@@ -28,8 +28,8 @@
                     }
 
                     .footer-logo-svg {
-                    height: 40px;
-                    width: 40px;
+                    height: 35px;
+                    width: 35px;
                     stroke: black;
                     fill: black;
                     flex-shrink: 0; /* Запрещаем SVG-изображению сжиматься */

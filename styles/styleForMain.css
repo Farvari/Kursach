@@ -612,9 +612,10 @@ iframe {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  width: 350px;
-  height: 45px;
+  width: 370px;
+  height: 50px;
   border: none;
+  margin-top: 8px;
 }
 
 .social {
